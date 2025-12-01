@@ -1,0 +1,98 @@
+/* :root{
+  --bg: #0b1223;
+  --panel: #0f1724;
+  --muted: #9aa6bf;
+  --accent: #5eead4;
+}
+
+body{
+  margin:0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: #fff;
+  color:#111827;
+}
+
+.app{
+  max-width:1200px;
+  margin: 12px auto;
+  padding: 8px 16px;
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:12px;
+}
+
+.status .ok{ color: green; }
+.status .bad{ color: red; }
+
+.editor-container{
+  display:flex;
+  gap:12px;
+  align-items:flex-start;
+}
+
+.suggestion-box{
+  min-width:300px;
+  max-width:320px;
+  background:#f7fafc;
+  border-radius:6px;
+  padding:10px;
+  border:1px solid #e2e8f0;
+  font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace;
+}
+
+.s-label{ font-weight:600; margin-bottom:6px; }
+.s-code{ background:#eef2ff; padding:8px; border-radius:4px; white-space:pre-wrap; }
+.s-muted{ color:#9aa6bf; font-size:13px; } */
+:root{
+  --bg: #0b1223;
+  --panel: #0f1724;
+  --muted: #9aa6bf;
+  --accent: #5eead4;
+}
+
+body{
+  margin:0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: #fff;
+  color:#111827;
+}
+
+.app{
+  max-width:1200px;
+  margin: 12px auto;
+  padding: 8px 16px;
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:12px;
+}
+
+.status .ok{ color: green; }
+.status .bad{ color: red; }
+
+.editor-container{
+  display:flex;
+  gap:12px;
+  align-items:flex-start;
+}
+
+.suggestion-box{
+  min-width:300px;
+  max-width:320px;
+  background:#f7fafc;
+  border-radius:6px;
+  padding:10px;
+  border:1px solid #e2e8f0;
+  font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace;
+}
+
+.s-label{ font-weight:600; margin-bottom:6px; }
+.s-code{ background:#eef2ff; padding:8px; border-radius:4px; white-space:pre-wrap; }
+.s-muted{ color:#9aa6bf; font-size:13px; }
